@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #eaeaea;
+}
+.header {
+    font-weight: bold;
+}
+.btn, .navbar-toggler {
+    cursor: pointer;
+}
+.btn:focus, .navbar-toggler:focus {
+    outline: none;
+}
+.pag-btn {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.pag-btn button {
+    text-transform:uppercase;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+.pag-btn button:hover {
+    background-color: rgba(85, 226, 205,0.8);
+}
+.pag-btn .next {
+    float: right;
+}
+.preview-div {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.done {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.sort-module  {
+    margin-bottom: 20px;
+}
+
+
+.note-editor {
+    width: 80%;
+    padding: 16px;
+    margin: 16px auto;
+    background-color: #fff;
+    box-shadow: 10px 11px 15px -1px rgba(0,0,0,0.27);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+.note-editor  textarea, input {
+    width: 100%;
+    resize: none;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    font-weight: 300;
+}
+.note-editor  textarea:focus, input:focus{
+    outline: none;
+}
+.add-button {
+    align-self: flex-end;
+    margin-left: 10px;
+    width: 100px;
+    background-color:#44c767;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:14px;
+    padding:8px 8px;
+    text-transform: uppercase;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.add-button:hover {
+    background-color:#5cbf2a;
+}
+.add-button:focus{
+    outline: none;
+}
+
+.error_form {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF806E;
+}
+.success_form {
+    font-size: 14px;
+    font-weight: bold;
+    color: #A1E77E;
+}
+#img-preview {
+    width: 320px;
+    margin-bottom: 3rem;
+}
+#back-editor {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    margin: 10px;
+}
+
+.user-name-prev {
+    margin-top: 10px;
+    font-weight: 300;
+}
+.user-email-prev {
+    color: #666666;
+}
+.img-user-prev {
+    width: 320px;
+    margin-bottom: 3rem;
+}
+
+#user-task, #img-preview{
+    border: 1px solid gainsboro;
+}
